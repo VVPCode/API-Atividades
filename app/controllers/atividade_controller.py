@@ -2,11 +2,13 @@ from flask import Blueprint, request, jsonify
 from models.atividade import Atividade
 from database import db
 import requests
+from datetime import datetime
+
 
 atividade_bp = Blueprint('atividade_bp', __name__)
 
 # URL da API de gerenciamento (ajuste conforme necessário)
-API_GERENCIAMENTO_URL = "http://api-gerenciamento:5000/professores"
+API_GERENCIAMENTO_URL = "http://host.docker.internal:5000/professores"
 
 @atividade_bp.route('/atividades', methods=['GET'])
 def listar_atividades():
