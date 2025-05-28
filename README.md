@@ -130,15 +130,6 @@ API_GERENCIAMENTO_URL = "http://<URL_DA_API_PRINCIPAL>"
 
 ---
 
-## 🧠 Autor e Créditos
-
-- Desenvolvido por: [Seu Nome]
-- Curso: Sistemas de Informação
-- GitHub: [Seu GitHub]
-- LinkedIn: [Seu LinkedIn]
-
----
-
 ## 📄 Licença
 
 Este projeto é livre para uso educacional.
